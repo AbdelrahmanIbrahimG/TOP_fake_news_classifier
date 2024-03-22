@@ -63,6 +63,8 @@ Datasets:
    	8- https://huggingface.co/datasets/aav-ds/Israel-HAMAS_war_news
    	9- https://huggingface.co/datasets/orgcatorg/russia-ukraine-cnbc
    	10- https://huggingface.co/datasets/Cartinoe5930/Politifact_fake_news
+	11- https://www.kaggle.com/competitions/fake-news/data?select=train.csv
+	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
 Text cleaning and processing steps:
    	- Remove punctuations, URLs, emojis, HTML tags, 2w numbers done
