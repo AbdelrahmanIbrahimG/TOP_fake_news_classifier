@@ -51,6 +51,7 @@ Notebooks to research:
 
 Deployment:
    	1- https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf
+   	2- FastAPI
 
 Datasets:
    	1- Syrian
