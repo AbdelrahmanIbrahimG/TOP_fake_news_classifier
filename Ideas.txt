@@ -30,6 +30,7 @@ Code features:
    	11- 23ml Turing test lel model (optional)
    	12- recommendation lel fake news result
 	13- use fact-check API beside the model 2w ntala3 output 3ady w law user m4 msada2 n5ale yesta5dem 2l API (yb2a fe limit le 2st5dam 2l API w law 3ada yedfa3)
+	14- n3ml api lena 27na w n5ale be flos w nas ta5do t7oto feature lel apps bta3ethom
 
 Website Features:
    	1- create logo lel website
