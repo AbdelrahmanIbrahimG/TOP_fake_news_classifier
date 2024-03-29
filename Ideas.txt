@@ -28,9 +28,10 @@ Code features:
    	9- 22ol 2l sabab wara 2l prediction w output 2l accuracy bel %
    	10- 23ml import lel visualization w fitting process ka gif w law hnsya5dem NN 2rsemha w 7otaha png
    	11- 23ml Turing test lel model (optional)
-   	12- recommendation lel fake news result
+   	12- recommendation lel fake news result (ignore)
 	13- use fact-check API beside the model 2w ntala3 output 3ady w law user m4 msada2 n5ale yesta5dem 2l API (yb2a fe limit le 2st5dam 2l API w law 3ada yedfa3)
 	14- n3ml api lena 27na w n5ale be flos w nas ta5do t7oto feature lel apps bta3ethom
+	15- fel presentation, design a workflow lel code w inputs/outputs w model names w processes
 
 Website Features:
    	1- create logo lel website
