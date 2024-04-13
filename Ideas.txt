@@ -21,7 +21,7 @@ Code features:
    	1- prevent data poisoning
    	2- continuous learning from the deployment
    	3- string injection (input string validation)
-   	4- boosting the model
+   	4- boosting the model ()
    	5- save the trained data
    	6- test for overfitting
    	8- real prob = 1 - fake prob
@@ -33,6 +33,8 @@ Code features:
 	14- n3ml api lena 27na w n5ale be flos w nas ta5do t7oto feature lel apps bta3ethom
 	15- fel presentation, design a workflow lel code w inputs/outputs w model names w processes
 	16- Prevent data drifting w model monitoring (fel deployment) (podcast ahmed elemam with amr ali)
+	17- create an extension for the model 34an t5aly 2l user y3ml select le text w yetla3lo button (or right click lel selected text) w y5tar model w ytala3 2l output
+	18- 
 
 Website Features:
    	1- create logo lel website
@@ -43,6 +45,11 @@ Website Features:
    	6- no code chatbot
    	7- display some facts for the user while the output is generating
    	8- Palestine support
+	9- create a chatbot using oneai.com (with voice recognition (optional)) 
+	10- create logo animation zy oneai.com
+	11- *for LinkedIn post* 2sta5dem text to audio models 34an demo 2l project(wellsaidlabs.com , murf.ai) with background music
+	12- create shortcuts
+	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
 
 Notebooks to research:
    	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
