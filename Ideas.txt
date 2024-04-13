@@ -50,6 +50,7 @@ Website Features:
 	11- *for LinkedIn post* 2sta5dem text to audio models 34an demo 2l project(wellsaidlabs.com , murf.ai) with background music
 	12- create shortcuts
 	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
+	14- import a loader while the model is running
 
 Notebooks to research:
    	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
