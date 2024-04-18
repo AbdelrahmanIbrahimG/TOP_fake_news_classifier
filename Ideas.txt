@@ -1,4 +1,4 @@
-٨Suggested models:
+Suggested models:
 	1- Naive Bayes or Multinomial Naive Bayes 
    	2- passive aggressive classifier
    	3- Latent Dirichlet allocation (m4 hynfa3)
@@ -25,7 +25,7 @@ Code features:
    	5- save the trained data
    	6- test for overfitting
    	8- real prob = 1 - fake prob
-   	9- 22ol 2l sabab wara 2l predاىبعتiction w output 2l accuracy bel %
+   	9- 22ol 2l sabab wara 2l prediction w output 2l accuracy bel %
    	10- 23ml import lel visualization w fitting process ka gif w law hnsya5dem NN 2rsemha w 7otaha png
    	11- 23ml Turing test lel model (optional)
    	12- recommendation lel fake news result (ignore)
