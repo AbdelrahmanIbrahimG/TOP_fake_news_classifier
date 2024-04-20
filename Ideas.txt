@@ -1,0 +1,91 @@
+Suggested models:
+	1- Naive Bayes or Multinomial Naive Bayes 
+   	2- passive aggressive classifier
+   	3- Latent Dirichlet allocation (m4 hynfa3)
+  	 4- N-Gram Analysis
+   	5- TF-IDF
+   	6- WordCloud
+  	7- SMOTE (for Imbalanced Classification)
+   	8- area under the ROC curve (performance metric)
+  	9- Word2Vec or GloVe (deep learning)
+	10- pycaret
+	11- plotly
+	12- part of speech tagging
+
+Suggested names:
+   	1- eye and ai
+   	2- TruthEye.ai
+   	3- fake or fact
+
+Code features:
+   	1- prevent data poisoning
+   	2- continuous learning from the deployment
+   	3- string injection (input string validation)
+   	4- boosting the model ()
+   	5- save the trained data
+   	6- test for overfitting
+   	8- real prob = 1 - fake prob
+   	9- 22ol 2l sabab wara 2l prediction w output 2l accuracy bel %
+   	10- 23ml import lel visualization w fitting process ka gif w law hnsya5dem NN 2rsemha w 7otaha png
+   	11- 23ml Turing test lel model (optional)
+   	12- recommendation lel fake news result (ignore)
+	13- use fact-check API beside the model 2w ntala3 output 3ady w law user m4 msada2 n5ale yesta5dem 2l API (yb2a fe limit le 2st5dam 2l API w law 3ada yedfa3)
+	14- n3ml api lena 27na w n5ale be flos w nas ta5do t7oto feature lel apps bta3ethom
+	15- fel presentation, design a workflow lel code w inputs/outputs w model names w processes
+	16- Prevent data drifting w model monitoring (fel deployment) (podcast ahmed elemam with amr ali)
+	17- create an extension for the model 34an t5aly 2l user y3ml select le text w yetla3lo button (or right click lel selected text) w y5tar model w ytala3 2l output
+	18- 
+
+Website Features:
+   	1- create logo lel website
+   	2- feedback form
+   	3- contact us
+   	4- prediction to the content only or advanced prediction (ykon fe 2l columns)
+   	5- one-row prediction or import CSV file to predict it
+   	6- no code chatbot
+   	7- display some facts for the user while the output is generating
+   	8- Palestine support
+	9- create a chatbot using oneai.com (with voice recognition (optional)) 
+	10- create logo animation zy oneai.com
+	11- *for LinkedIn post* 2sta5dem text to audio models 34an demo 2l project(wellsaidlabs.com , murf.ai) with background music
+	12- create shortcuts
+	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
+	14- import a loader while the model is running
+
+Notebooks to research:
+   	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
+   	2- https://www.kaggle.com/code/ninjaac/text-classification-newss/notebook
+   	3- https://www.kaggle.com/code/ahmedtronic/fake-news-classification/notebook
+   	4- https://www.kaggle.com/code/ohseokkim/fake-news-easy-nlp-text-classification
+   	5- https://www.kaggle.com/code/ruchi798/how-do-you-recognize-fake-news/notebook
+   	6- https://medium.com/analytics-vidhya/fake-news-detector-cbc47b085d4
+
+Deployment:
+   	1- https://towardsdatascience.com/simple-way-to-deploy-machine-learning-models-to-cloud-fd58b771fdcf
+   	2- FastAPI
+
+Datasets:
+   	1- Syrian
+   	2- Ukraine
+  	3- ISOT
+  	4- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+   	5- https://huggingface.co/datasets/RealTimeData/bbc_latest
+   	6- https://huggingface.co/datasets/RealTimeData/News_August_2023
+   	7- https://huggingface.co/datasets/orgcatorg/israel-hamas-gaza-cnn
+   	8- https://huggingface.co/datasets/aav-ds/Israel-HAMAS_war_news
+   	9- https://huggingface.co/datasets/orgcatorg/russia-ukraine-cnbc
+   	10- https://huggingface.co/datasets/Cartinoe5930/Politifact_fake_news
+	11- https://www.kaggle.com/competitions/fake-news/data?select=train.csv
+	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+
+Text cleaning and processing steps:
+   	- Remove punctuations, URLs, emojis, HTML tags, 2w numbers done
+   	- Remove stopwords using NLTK done
+   	- small case done
+   	- Spell Checking and Correction (TextBlob, Hunspell) done
+   	- tokenization done
+   	- Apply lemmatization, stemming, Expanding contractions done
+   	- TF-IDF
+   	- Handling Imbalanced Data (SMOTE)
+	- shuffle
+	- Remove tokens of length less than or equal to # 
