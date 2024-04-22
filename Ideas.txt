@@ -21,7 +21,7 @@ Code features:
    	1- prevent data poisoning
    	2- continuous learning from the deployment
    	3- string injection (input string validation)
-   	4- boosting the model ()
+   	4- boosting the model (ignore)
    	5- save the trained data
    	6- test for overfitting
    	8- real prob = 1 - fake prob
@@ -34,7 +34,7 @@ Code features:
 	15- fel presentation, design a workflow lel code w inputs/outputs w model names w processes
 	16- Prevent data drifting w model monitoring (fel deployment) (podcast ahmed elemam with amr ali)
 	17- create an extension for the model 34an t5aly 2l user y3ml select le text w yetla3lo button (or right click lel selected text) w y5tar model w ytala3 2l output
-	18- 
+	18- upload the code + dataset to Kaggle
 
 Website Features:
    	1- create logo lel website
@@ -51,6 +51,8 @@ Website Features:
 	12- create shortcuts
 	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
 	14- import a loader while the model is running
+	15- funding link to Palestinian aid support
+	16- QRcode to the model extension (best project poster)
 
 Notebooks to research:
    	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
