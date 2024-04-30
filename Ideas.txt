@@ -35,6 +35,8 @@ Code features:
 	16- Prevent data drifting w model monitoring (fel deployment) (podcast ahmed elemam with amr ali)
 	17- create an extension for the model 34an t5aly 2l user y3ml select le text w yetla3lo button (or right click lel selected text) w y5tar model w ytala3 2l output
 	18- upload the code + dataset to Kaggle
+	19- confidence or probability of the prediction
+	20- Try and catch lel prediction 34an law fe input 8lt da5al mydrab4
 
 Website Features:
    	1- create logo lel website
@@ -46,13 +48,14 @@ Website Features:
    	7- display some facts for the user while the output is generating
    	8- Palestine support
 	9- create a chatbot using oneai.com (with voice recognition (optional)) 
-	10- create logo animation zy oneai.com
+	10- create logo animation zy oneai.com ( https://www.kittl.com/designs/logos )
 	11- *for LinkedIn post* 2sta5dem text to audio models 34an demo 2l project(wellsaidlabs.com , murf.ai) with background music
 	12- create shortcuts
 	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
-	14- import a loader while the model is running
+	14- import a loader while the model is running ( https://uiball.com/ldrs/ )
 	15- funding link to Palestinian aid support
-	16- QRcode to the model extension (best project poster)
+	16- QRcode to the model extension (best project poster) https://huggingface.co/spaces/huggingface-projects/QR-code-AI-art-generator
+	17- 
 
 Notebooks to research:
    	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
@@ -79,15 +82,3 @@ Datasets:
    	10- https://huggingface.co/datasets/Cartinoe5930/Politifact_fake_news
 	11- https://www.kaggle.com/competitions/fake-news/data?select=train.csv
 	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
-
-Text cleaning and processing steps:
-   	- Remove punctuations, URLs, emojis, HTML tags, 2w numbers done
-   	- Remove stopwords using NLTK done
-   	- small case done
-   	- Spell Checking and Correction (TextBlob, Hunspell) done
-   	- tokenization done
-   	- Apply lemmatization, stemming, Expanding contractions done
-   	- TF-IDF
-   	- Handling Imbalanced Data (SMOTE)
-	- shuffle
-	- Remove tokens of length less than or equal to # 
