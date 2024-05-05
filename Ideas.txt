@@ -38,7 +38,7 @@ Code features:
 	19- confidence or probability of the prediction
 	20- Try and catch lel prediction 34an law fe input 8lt da5al mydrab4
 
-Website Features:
+Website features:
    	1- create logo lel website
    	2- feedback form
    	3- contact us
@@ -54,8 +54,14 @@ Website Features:
 	13- make tutorial page and upload videos on youtube w 7otohom fe small window w autoplay zy glossai.co
 	14- import a loader while the model is running ( https://uiball.com/ldrs/ )
 	15- funding link to Palestinian aid support
-	16- QRcode to the model extension (best project poster) https://huggingface.co/spaces/huggingface-projects/QR-code-AI-art-generator
-	17- 
+	16- QRcode to the model extension & website (best project poster) https://huggingface.co/spaces/huggingface-projects/QR-code-AI-art-generator
+	17- extension link in website
+
+Extension feature:
+	1- B3d 2l highlight 23ml popup button fe 2l logo 34an yetla3 2l window of extension w feha 2l result w 22dar 22fel 2l popup logo dy mn settings law 2l user 3ayez (fekra we74a)
+	2- Website link in extension
+	3- Palestine support
+	4- 25aly 2l size of the popup window & color customizable 
 
 Notebooks to research:
    	1- https://www.kaggle.com/code/ktattan/lda-and-document-similarity (ignore)
