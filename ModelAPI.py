@@ -8,7 +8,11 @@ import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI()
+app = FastAPI(
+    title="Fake News Classification API",
+    docs_url="/api/docs", 
+    description="A Saas machine learning model API developed to help in classifying suspicious news articles all over the web"
+)
 
 class article(BaseModel):
     text: str
@@ -17,7 +21,7 @@ vectorizer = pickle.load(open('Training/vectorizer.pkl', 'rb'))
 transformer = pickle.load(open('Training/transformer.pkl', 'rb'))
 model = pickle.load(open('Training/dt.pkl', 'rb'))
 
-@app.post("/")
+@app.post("/", tags=["Classify a news article"])
 async def classify(input: article):
     
     text = re.sub(r'http\S+', '', str(input.text))
