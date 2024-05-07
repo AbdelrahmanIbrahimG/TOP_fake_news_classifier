@@ -9,17 +9,17 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI(
-    title="Fake News Classification API",
+    title="TOP API",
     docs_url="/api/docs", 
-    description="A Saas machine learning model API developed to help in classifying suspicious news articles all over the web"
+    description="A Saas machine learning model API developed to help in classifying suspicious and fake news articles all over the web"
 )
 
 class article(BaseModel):
     text: str
 
-vectorizer = pickle.load(open('Training/vectorizer.pkl', 'rb'))
-transformer = pickle.load(open('Training/transformer.pkl', 'rb'))
-model = pickle.load(open('Training/dt.pkl', 'rb'))
+vectorizer = pickle.load(open('training/vectorizer.pkl', 'rb'))
+transformer = pickle.load(open('training/transformer.pkl', 'rb'))
+model = pickle.load(open('training/dt.pkl', 'rb'))
 
 @app.post("/", tags=["Classify a news article"])
 async def classify(input: article):
@@ -51,3 +51,5 @@ async def classify(input: article):
     prediction = model.predict(tfidf)
 
     return {"prediction": str(prediction[0])}
+
+    # uvicorn topapi:app --reload

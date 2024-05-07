@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "TOP",
+    "version": "0.0.1",
+    "description": "an extension that has machine learning model deployed in it to classify the fake news articles",
+    "action":{}
+
+
+
+}

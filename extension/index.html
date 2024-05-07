@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOP</title>
+</head>
+<body>
+    input news article:
+    <br>
+    <textarea id="article" rows="4" cols="50" placeholder="article" ></textarea>
+    <br>
+    <button type="button" onclick="sendDataToAPI()">Send to API</button>
+    
+    <h2 id="result"></h2>
+</body>
+<script>
+
+url = 'http://127.0.0.1:8000'
+
+async function sendDataToAPI() {
+    const response = await fetch('http://127.0.0.1:8000', {
+      method: 'POST', // Update to 'GET' if your API expects a GET request
+      headers: {
+        'Content-Type': 'application/json' // Set content type, adjust if needed
+      },
+      body: JSON.stringify({text: "testing the api on extension"}) // Convert data to JSON string
+    }).then(res => {
+        return res.json()
+    }).then(data => console.log(data))
+
+    // if (!response.ok) {
+    //   throw new Error(`HTTP error! status: ${response.status}`);
+    // }
+
+    // const responseData = await response.json();
+    // const dataToDisplay = responseData.prediction; // Replace with the appropriate field name from your API response
+
+    // document.getElementById("result").textContent = dataToDisplay;
+
+  
+}
+
+
+
+</script>
+</html>
