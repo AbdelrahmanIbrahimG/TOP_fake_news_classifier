@@ -15,10 +15,10 @@
 </body>
 <script>
 
-url = 'http://127.0.0.1:8000'
+url = 'https://top-fake-classifier-5c60b406.koyeb.app/'
 
-async function sendDataToAPI() {
-    const response = await fetch('http://127.0.0.1:8000', {
+async function sendDataToAPI(url) {
+    const response = await fetch('https://top-fake-classifier-5c60b406.koyeb.app/', {
       method: 'POST', // Update to 'GET' if your API expects a GET request
       headers: {
         'Content-Type': 'application/json' // Set content type, adjust if needed
