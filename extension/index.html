@@ -1,46 +1,73 @@
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>TOP</title>
+    <title>Popup Button</title>
+    <style>
+        .popup-button {
+            position: absolute;
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
-<body>
-    input news article:
-    <br>
-    <textarea id="article" rows="4" cols="50" placeholder="article" ></textarea>
-    <br>
-    <button type="button" onclick="sendDataToAPI()">Send to API</button>
-    
-    <h2 id="result"></h2>
+<body><br><br><br><br><br><br>
+    <div class="popup-button" id="popupButton">
+        <button onclick="showSelectedText()">CHECK</button>
+    </div>
+
+    <p>Select some text and the button will appear above it.</p>
+
+    <script>
+        function showSelectedText() {
+            var selectedText = window.getSelection().toString();
+            alert(selectedText);
+        }
+
+        document.addEventListener('mouseup', function() {
+            var selectedText = window.getSelection().toString().trim();
+            var popupButton = document.getElementById('popupButton');
+
+            if (selectedText !== '') {
+                popupButton.style.display = 'block';
+                var selection = window.getSelection().getRangeAt(0);
+                var rect = selection.getBoundingClientRect();
+                popupButton.style.top = rect.top - popupButton.offsetHeight - 10 + 'px';
+                popupButton.style.left = rect.left + (rect.width / 2) - (popupButton.offsetWidth / 2) + 'px';
+            } else {
+                popupButton.style.display = 'none';
+            }
+        });
+
+        const url = 'http://127.0.0.1:8000';
+
+const data = {
+  text: "u business fear nafta doom mexico warns consequence mexico city washington reuters powerful u business lobby accuse trump administration make poison pill proposal sabotage nafta tuesday mexico foreign minister say demise regional trade pact would hurt bilateral cooperation process renegotiate yearold north american free trade agreement turn increasingly acrimonious mexico accuse u president donald trump spoil protectionist war proposal aim balance trade mexican foreign minister luis videgaray say tuesday end nafta would mark break point usmexican relation affect bilateral cooperation area mexico key partner united state fight drug traffic stem illegal immigration across u southern border videgaray speak trump warn would like scrap treaty create one world big trade bloc happen think nafta terminate go make good trump say interview forbes publish tuesday mexican peso weaken fifth straight session tuesday amid increased tension hit weak level dollar since early june fourth round negotiation start washington wednesday modernize nafta prolong two day oct two source mexico say trump hardline position appear wide support ahead talk many u business farmer line back exist agreement speak mexico city thomas donohue u chamber commerce president chief executive list several u proposal say would undermine trillion annual trilateral trade include sunset clause force regular negotiation comment mark second broadside chamber launch trump administration stance nafta less week argue repeatedly trade pact critical u industry agriculture manufacture several poison pill proposal still table could doom entire deal donohue say event host american chamber commerce mexico say existential threat nafta threaten regional security u official suggest incorporate sunset clause nafta would kill unless renegotiate every five year official also suggest eliminate key dispute resolution mechanism much dismay canada donohue single plan make automaker source part north america well propose change dispute resolution mechanism obstacles nafta renewal also cite plan limit canadian mexican access u government procurement rule automaker mexico say excessive content requirement could serious damage industry competitiveness impact would opposite intended u industry would source input asia less u right proposal would actually send business overseas donohue say also slam emphasis place white house reduce u trade deficit wrong focus impossible achieve without cripple economy say chamber sent letter white house tuesday sign local u business group support nafta united state mexico canada begin renegotiate nafta summer trump repeatedly threaten withdraw win concession reduce u trade deficit around billion mexico president strongly criticize agreement year realize bad u great mexico canada naturally defend lopsided accord u trade representative robert lighthizer say tuesday rebalance require substantial change mere tweak president vow bring job investment back america less added"
+};
+
+fetch(url, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(data)
+})
+  .then(response => response.json())
+  .then(output => {
+    console.log(output);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+
+
+    </script>
 </body>
-<script>
-
-url = 'https://top-fake-classifier-5c60b406.koyeb.app/'
-
-async function sendDataToAPI(url) {
-    const response = await fetch('https://top-fake-classifier-5c60b406.koyeb.app/', {
-      method: 'POST', // Update to 'GET' if your API expects a GET request
-      headers: {
-        'Content-Type': 'application/json' // Set content type, adjust if needed
-      },
-      body: JSON.stringify({text: "testing the api on extension"}) // Convert data to JSON string
-    }).then(res => {
-        return res.json()
-    }).then(data => console.log(data))
-
-    // if (!response.ok) {
-    //   throw new Error(`HTTP error! status: ${response.status}`);
-    // }
-
-    // const responseData = await response.json();
-    // const dataToDisplay = responseData.prediction; // Replace with the appropriate field name from your API response
-
-    // document.getElementById("result").textContent = dataToDisplay;
-
-  
-}
-
-
-
-</script>
 </html>
+

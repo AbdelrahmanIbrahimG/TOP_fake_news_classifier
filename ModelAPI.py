@@ -17,9 +17,9 @@ app = FastAPI(
 class article(BaseModel):
     text: str
 
-vectorizer = pickle.load(open('training/vectorizer.pkl', 'rb'))
-transformer = pickle.load(open('training/transformer.pkl', 'rb'))
-model = pickle.load(open('training/dt.pkl', 'rb'))
+vectorizer = pickle.load(open('Training/vectorizer.pkl', 'rb'))
+transformer = pickle.load(open('Training/transformer.pkl', 'rb'))
+model = pickle.load(open('Training/dt.pkl', 'rb'))
 
 @app.post("/", tags=["Classify a news article"])
 async def classify(input: article):
@@ -52,4 +52,4 @@ async def classify(input: article):
 
     return {"prediction": str(prediction[0])}
 
-    # uvicorn topapi:app --reload
+    # uvicorn ModelAPI:app --reload
