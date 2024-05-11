@@ -3,9 +3,16 @@
     "name": "TOP",
     "version": "0.0.1",
     "description": "an extension that has machine learning model deployed in it to classify the fake news articles",
-    "action":{},
-    "permissions":["scripting"]
+    "author":  "abdelrahmanibrahim425@gmail.com",
+    "icons": {
 
+    },
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
 
-
+        },
+        "default_title": "Check fake news"
+    },
+    "permissions": ["activeTab"]
 }

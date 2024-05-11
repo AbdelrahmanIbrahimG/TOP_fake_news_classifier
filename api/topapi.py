@@ -21,9 +21,9 @@ app = FastAPI(
 class article(BaseModel):
     text: str
 
-vectorizer = pickle.load(open('api/vectorizer.pkl', 'rb'))
-transformer = pickle.load(open('api/transformer.pkl', 'rb'))
-model = pickle.load(open('api/dt.pkl', 'rb'))
+vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
+transformer = pickle.load(open('transformer.pkl', 'rb'))
+model = pickle.load(open('dt.pkl', 'rb'))
 
 @app.get("/")
 def root():
@@ -60,4 +60,4 @@ def classify(input: article):
 
     return {"prediction": str(prediction[0])}
 
-    # uvicorn api.topapi:app --reload
+    # uvicorn topapi:app --reload
