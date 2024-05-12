@@ -37,6 +37,7 @@ Code features:
 	18- upload the code + dataset to Kaggle
 	19- confidence or probability of the prediction
 	20- Try and catch lel prediction 34an law fe input 8lt da5al mydrab4
+	21- text area w ydos ctrl+enter 34an yb3at
 
 Website features:
    	1- create logo lel website
