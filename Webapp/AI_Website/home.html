@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <!-- link fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- link main css file -->
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div class="inc">
+        <div class="header">
+          <div class="container">
+            <div class="left">
+              <!-- <img src="images/Truth_Initiative_logo.svg.png" alt="" /> -->
+              <div class="logo-back">
+                <p>TRUTH DETECTOR</p>
+              </div>
+            </div>
+            <ul id="nav" class="right">
+              <li><a href="#main">Home</a></li>
+              <li><a href="#ved">how to use</a></li>
+              <li><a href="#whoRW">about us</a></li>
+              <li><a href="#contact">send us a question</a></li>
+            </ul>
+            <div id="burger-icon" class="burger-icon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="landing">
+        <div class="container">
+          <div class="text">
+            <h1>Discover. Decipher. Decide. Unravel truth together.</h1>
+            <div class="parag">
+              <p>
+                TeleportHQ is the collaborative front-end platform with
+                integrated UI development and content modelling tools. A
+                powerful visual builder to create and publish your headless
+                static websites instantly.
+              </p>
+            </div>
+          </div>
+          <div class="boxes">
+            <button><a href="predict.html">Get Started</a></button>
+            <button><a href="home.html">See how its works</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ved" class="how-it-works">
+      <div class="container">
+        <h3>How to Use it ?</h3>
+        <video controls>
+          <source src="ved.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <div id="whoRW" class="about-us">
+      <div class="container">
+        <div class="text">
+          <p class="unique">how it works</p>
+          <p>creating stunning</p>
+          <p>static websites and UI elements, through a seamless workflow</p>
+          <p>
+            Integrate an advanced developer-centric front-end design system that
+            works with any workflow. Enable seamless collaboration between
+            designers and developers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="text">
+          <p>ASK US QUESTION</p>
+          <h1>Contact Us</h1>
+        </div>
+        <form onsubmit="sendmail()  ,event.preventDefault();">
+          <input type="text" name="name" placeholder="your Name" />
+          <input type="email" name="email" placeholder="your email" />
+          <input type="number" name="number" placeholder="your number" />
+          <input type="text" name="message" placeholder="your message" />
+          <div class="sumbit_button">
+            <input type="submit" value="send message" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
