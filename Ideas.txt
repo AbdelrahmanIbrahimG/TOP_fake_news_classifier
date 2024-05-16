@@ -89,3 +89,28 @@ Datasets:
    	10- https://huggingface.co/datasets/Cartinoe5930/Politifact_fake_news
 	11- https://www.kaggle.com/competitions/fake-news/data?select=train.csv
 	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
+
+Next and FINAL steps:
+	- git abdo
+	- remove any warning output in .ipynb
+	- web app & extension logo
+	- extension design
+	- extension Palestine flag
+	- extension fact check
+	- project pipeline
+	- web app drop-down menu for our products and solutions
+	- web app tutorial section (vids on yt)
+	- web app Palestine flag
+	- web app no code chatbot (optional)
+	- web app submit button outside the textarea
+	- web app warning message
+	- web app fact check
+	- web app delete chat history button
+	- web app submit shortcut ( ctrl + enter )
+	- web app database
+	- poster
+	- api try-except
+	- tazbeet RapidAPI TOP API hub
+
+
+
