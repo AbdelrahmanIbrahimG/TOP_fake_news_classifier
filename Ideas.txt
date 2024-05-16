@@ -99,6 +99,7 @@ Next and FINAL steps:
 	- web app tutorial section (vids on yt)
 	- web app Palestine flag
 	- web app fact check
+	- web app no code chatbot (optional)
 	- web app database
 	- web app warning message
 	- web app delete history button
