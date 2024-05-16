@@ -92,21 +92,22 @@ Datasets:
 
 Next and FINAL steps:
 	- git abdo
+	- remove any warning output in .ipynb
+	- web app & extension logo
 	- extension design
-	- extension fact check
 	- extension Palestine flag
+	- extension fact check
 	- project pipeline
+	- web app drop-down menu for our products and solutions
 	- web app tutorial section (vids on yt)
 	- web app Palestine flag
-	- web app fact check
 	- web app no code chatbot (optional)
-	- web app database
-	- web app warning message
-	- web app delete history button
-	- web app drop-down menu to our products and solutions
 	- web app submit button outside the textarea
+	- web app warning message
+	- web app fact check
+	- web app delete chat history button
 	- web app submit shortcut ( ctrl + enter )
-	- web app & extension logo
+	- web app database
 	- poster
 	- api try-except
 	- tazbeet RapidAPI TOP API hub
