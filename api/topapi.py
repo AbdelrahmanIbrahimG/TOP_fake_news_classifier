@@ -14,8 +14,8 @@ nltk.download('wordnet')
 
 app = FastAPI(
     title="TOP API",
-    docs_url="/api/doc", 
-    description="A Saas machine learning model API developed to help in classifying suspicious and fake news articles all over the web"
+    docs_url="docs", 
+    description="TOP API tackles the challenge of fake news detection using artificial intelligence. Its core functionality lies in analyzing text and classifying it as real or fake news. This is achieved through a machine learning model trained on a massive dataset of labeled news articles. The model, a decision tree, works by dissecting the text and identifying patterns that differentiate real news from fabricated stories."
 )
 
 class article(BaseModel):
@@ -25,9 +25,9 @@ vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 transformer = pickle.load(open('transformer.pkl', 'rb'))
 model = pickle.load(open('dt.pkl', 'rb'))
 
-@app.get("/")
+@app.get("/", tags=["Health check"])
 def root():
-    return {"Health": "OK"}
+    return {"Health": "200 OK"}
 
 @app.post("/classify", tags=["Classify a news article"])
 def classify(input: article):
