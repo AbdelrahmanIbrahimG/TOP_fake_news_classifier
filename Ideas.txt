@@ -13,9 +13,8 @@ Suggested models:
 	12- part of speech tagging
 
 Suggested names:
-   	1- eye and ai
-   	2- TruthEye.ai
-   	3- fake or fact
+   	1- TruthEye.ai
+   	2- fake or fact
 
 Code features:
    	1- prevent data poisoning
@@ -91,26 +90,18 @@ Datasets:
 	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
 Next and FINAL steps:
-	- git abdo
-	- remove any warning output in .ipynb
-	- web app & extension logo
-	- extension design
-	- extension Palestine flag
-	- extension fact check
-	- project pipeline
-	- web app drop-down menu for our products and solutions
-	- web app tutorial section (vids on yt)
-	- web app Palestine flag
-	- web app no code chatbot (optional)
-	- web app submit button outside the textarea
-	- web app warning message
-	- web app fact check
-	- web app delete chat history button
-	- web app submit shortcut ( ctrl + enter )
-	- web app database
-	- poster
-	- api try-except
-	- tazbeet RapidAPI TOP API hub
-
-
-
+	- remove any warning output in .ipynb abdo
+	- web app & extension logo abdo
+	- extension design abdo
+	- extension and web Palestine flag abdo 
+	- project pipeline (Done) ali 
+	- web app drop-down menu for our products and solutions abdo
+	- web app tutorial section (vids on yt and linkedin) ali
+	- web app no code chatbot (optional) ali
+	- web app submit button outside the textarea abdo
+	- web app warning message (done abdo)
+	- web app share chat history button abdo
+	- web app submit shortcut ( ctrl + enter ) ali
+	- web app database (optional) ali
+	- poster ali and abdo
+	- tazbeet RapidAPI TOP API hub ali
