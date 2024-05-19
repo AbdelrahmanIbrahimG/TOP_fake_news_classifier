@@ -10,7 +10,7 @@
 html{
   width: 400px;
   height: 350px;
-  background-color: gray;
+  background-color: #141414;
 }
 
 #form {
@@ -19,14 +19,14 @@ html{
   align-items: center; /* Center horizontally */
   /* min-height: 91vh; */
   justify-content: center; /* Center vertically (within viewport) */
-  margin-top: 59px;
+  margin-top: 34px;
 }
 
 #text{
-  width: 388px;
+  width: 380px;
   height: 117px;
-  color: white;
-  background-color: #303030;
+  color: black;
+  background-color: white;
   font-size: 13pt;
   border: none;
 }
@@ -34,6 +34,13 @@ html{
 #popupButton {
   margin-top: 260px; /* Add some space between textarea and button */
   
+}
+
+h3{
+  color: #F06305;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 0;
 }
 
 #check{
