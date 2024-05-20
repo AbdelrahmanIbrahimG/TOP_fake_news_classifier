@@ -91,17 +91,17 @@ Datasets:
 
 Next and FINAL steps:
 	- remove any warning output in .ipynb abdo
-	- web app & extension logo abdo
-	- extension design abdo
 	- extension and web Palestine flag abdo 
-	- project pipeline ali (done)
 	- web app drop-down menu for our products and solutions abdo
 	- web app tutorial section (vids on yt) ali
-	- web app no code chatbot (optional) ali (m4 htt3emel)
-	- web app submit button outside the textarea abdo
-	- web app warning message (done abdo)
+	- web app submit button outside the textarea abdo 
 	- web app share chat history button abdo
 	- web app submit shortcut ( ctrl + enter ) ali
 	- web app database (optional) ali
+	- web app & extension logo abdo (done)
+	- extension design abdo (done)
+	- project pipeline ali (done)
+	- web app no code chatbot (optional) ali (m4 htt3emel)
+	- web app warning message (done abdo)
 	- poster ali and abdo (done)
 	- tazbeet RapidAPI TOP API hub ali (done)
