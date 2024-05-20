@@ -31,6 +31,17 @@ subbtn.addEventListener("click", async () => {
   }
 });
 
+let textarea = document.getElementById("news");
+
+textarea.addEventListener("keydown", async (event) => {
+  if (event.ctrlKey && event.keyCode === 13) {
+    event.preventDefault(); // Prevent the default behavior of the Enter key
+
+    // Trigger the click event on the submit button
+    subbtn.click();
+  }
+});
+
 async function getpred(selectedText) {
   const url = "https://top9.p.rapidapi.com/classify";
   const options = {

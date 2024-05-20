@@ -20,10 +20,14 @@ document.getElementById('check').addEventListener('click', function() {
             try {
                 const response = await fetch(url, options);
                 const result = await response.json();
-                if(result.prediction == 0)
+                if(result.prediction == 0){
                     document.getElementById('result').textContent = "FALSE";
-                else
+                    document.getElementById("result").style.background = "#2b28289e";
+
+                }else{
                     document.getElementById('result').textContent = "TRUE";
+                    document.getElementById("result").style.background = "#2b28289e";
+                }
 
             } catch (error) {
                 console.error(error);

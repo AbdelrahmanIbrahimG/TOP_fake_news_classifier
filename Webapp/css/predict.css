@@ -126,6 +126,17 @@ body {
     font-size: 11px;
   }
 }
+
+#logo{
+    /* margin-top: 10px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 163px;
+    margin-left: 68px;
+}
+
 .bottom .arrow {
   position: absolute;
   color: black;
