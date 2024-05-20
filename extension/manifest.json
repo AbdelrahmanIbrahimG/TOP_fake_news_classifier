@@ -5,7 +5,10 @@
   "description": "TOP API tackles the challenge of fake news detection using artificial intelligence. Its core functionality lies in analyzing text and classifying it as real or fake news. This is achieved through a machine learning model trained on a massive dataset of labeled news articles. The model, a decision tree, works by dissecting the text and identifying patterns that differentiate real news from fabricated stories.",
   "author":  "abdelrahmanibrahim425@gmail.com",
   "icons": {
-
+    "16": "images/T.png",
+    "32": "images/T.png",
+    "48": "images/T.png",
+    "128": "images/T.png"
   },
   "action": {
       "default_popup": "popup.html",
