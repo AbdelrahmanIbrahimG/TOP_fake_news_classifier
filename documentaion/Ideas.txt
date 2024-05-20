@@ -90,14 +90,14 @@ Datasets:
 	12- https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification
 
 Next and FINAL steps:
-	- remove any warning output in .ipynb abdo
-	- extension and web Palestine flag abdo 
+	- web Palestine flag abdo 
 	- web app drop-down menu for our products and solutions abdo
 	- web app tutorial section (vids on yt) ali
 	- web app submit button outside the textarea abdo 
 	- web app share chat history button abdo
-	- web app submit shortcut ( ctrl + enter ) ali
 	- web app database (optional) ali
+	- remove any warning output in .ipynb abdo (done)
+	- web app submit shortcut ( ctrl + enter ) ali (done)
 	- web app & extension logo abdo (done)
 	- extension design abdo (done)
 	- project pipeline ali (done)
