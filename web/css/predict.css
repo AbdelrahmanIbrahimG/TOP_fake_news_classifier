@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: black;
+  /* background-color: #1e1c26; */
+
+  /* color: white; */
+}
+:root {
+  --break-col: #f06305;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+    /* width: 1184px; */
+    /* padding: 0 7px; */
+    /* margin: 0 7px; */
+  }
+}
+/* End Global Rules */
+/* start right */
+.right {
+  position: relative;
+}
+
+/* start main */
+.main {
+  padding: 20px 40px 120px 40px;
+  font-size: 21px;
+  color: white;
+  /* background-color: #252331; */
+}
+/* end main */
+
+/* start top */
+.top {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: #212121;
+}
+.top .container {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 80px;
+}
+.container .plastine img {
+  width: 85px;
+  height: 85px;
+  margin-top: 10px;
+}
+
+.top h1 {
+  color: var(--break-col);
+}
+@media (max-width: 440px) {
+  .top h1 {
+    font-size: 21px;
+  }
+}
+.top .delete .box {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--break-col);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottom {
+  position: fixed;
+  left: 0px;
+  top: 627px;
+  padding: 12px 0 10px;
+  right: 0px;
+  background: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 110px;
+}
+.bottom textarea {
+  width: 94%;
+  border: none;
+  padding: 5px 10px 7px 10px;
+  resize: none;
+  scrollbar-width: inherit;
+  min-height: 45px;
+}
+
+.form {
+  width: 70%;
+  position: relative;
+  background: white;
+  border-radius: 10px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+.bottom form {
+  margin: 5px 0;
+}
+@media (max-width: 770px) {
+  .bottom .form {
+    width: 80%;
+  }
+  .bottom .text p {
+    font-size: 11px;
+  }
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo-img {
+  /* margin-top: 10px; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 75px;
+  width: 120px;
+}
+.bottom .arrow {
+  position: absolute;
+  color: black;
+  background: var(--break-col);
+  height: 40px;
+  right: 5px;
+  bottom: 6px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.crtl-enter{
+  position: absolute;
+  right: -85px;
+  color: white;
+  background: #3d3d3d;
+  top: 15px;
+  z-index: 100000000;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 10px;
+}
+/* end top */
+/* end right */
+/* 
+const url = 'https://top9.p.rapidapi.com/classify';
+    const options = {
+        method: 'POST',
+        headers: {
+            'content-type': 'application/json',
+            'X-RapidAPI-Key': 'e6332296a5msh157cb1e6e200cfdp145336jsn914f220362a4',
+            'X-RapidAPI-Host': 'top9.p.rapidapi.com'
+        },
+        body: JSON.stringify({"text": selectedText})
+    };
+
+    (async () => {  
+        try {
+            const response = await fetch(url, options);
+            const result = await response.json();
+            document.getElementById('result').textContent = result.prediction;
+        } catch (error) {
+            console.error(error);
+        }
+    })();
+
+
+*/
+.user-news-item {
+  padding: 15px;
+  background: rgb(66, 46, 46);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.fake {
+  background: rgb(43, 43, 57);
+  border-radius: 10px;
+  color: red;
+  padding: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  direction: revert;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.true {
+  background: rgb(47, 47, 53);
+  border-radius: 10px;
+  color: green;
+  padding: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  direction: revert;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.response-container {
+  display: flex;
+  justify-content: right;
+}

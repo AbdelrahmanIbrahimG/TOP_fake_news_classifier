@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOP</title>
+    <link rel="icon" type="image/x-icon" href="images/T.png" />
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet" />
+    <!-- link fontawsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- link main css file -->
+    <link rel="stylesheet" href="css/predict.css" />
+  </head>
+  <body>
+    <div class="right">
+      <div class="top">
+        <div class="container">
+          <div class="logo">
+            <!-- <h1>TOP</h1> -->
+            <img id="logo-img" src="images/logo.png" alt="" />
+            <div class="plastine">
+              <img
+                id="mm"
+                class="pl-img"
+                src="images/plastine_prev_ui-transformed.png"
+                alt="" />
+            </div>
+          </div>
+          <div class="delete" title="delete the chat">
+            <div class="box"><i class="fa-solid fa-trash-can"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main"></div>
+      </div>
+      <div class="bottom">
+        <div class="form">
+          <textarea
+            name=""
+            id="news"
+            placeholder="Write the news you want to classify"></textarea>
+          <div id="submit" class="arrow">
+            <i class="fa-solid fa-arrow-up"></i>
+          </div>
+          <div class="crtl-enter">Ctrl+Enter</div>
+        </div>
+
+        <div class="text">
+          <p style="color: white">
+            Our Model can make mistakes. Check important info.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/predict.js"></script>
+  </body>
+</html>
