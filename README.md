@@ -4,6 +4,11 @@
 
 In today's digital age, misinformation spreads like wildfire. To combat this challenge, we've developed the **Truth or Propaganda (TOP)** project—a comprehensive solution that combines cutting-edge AI, APIs, and user-friendly interfaces.
 
+ Before we begin. Check out the workflow architecture of how TOP works:
+
+![TOP Workflow](https://github.com/ali26m/Fake_News_Classification/blob/main/documentaion/TOP-pipeline.gif)
+
+
 ## The Core AI Model
 
 At the heart of TOP lies a powerful AI model. Deployed in a public cloud environment, it ensures scalability and accessibility. Here's how it works:
@@ -20,20 +25,26 @@ We believe in empowering users to actively combat misinformation. That's why we 
 - **Cloud-Based Restful API**: Developed using FastAPI and hosted on the KOYEB platform, the TOP API acts as a bridge for integration with various applications.
 - **Fact-Checking Features**: Developers can seamlessly integrate our API into existing platforms, allowing users to verify information effortlessly.
 
+
+https://github.com/ali26m/TOP_fake_news_classifier/assets/96798106/4da42012-fe9e-4a8b-82f3-9291d005bd69
+
+---
+
 ## User-Friendly Tools
 
 Our project extends its reach through two user-friendly tools:
 
-1. **Chrome Extension**: Easily classify news articles while browsing social media or conducting online research with a few buttons.
-2. **Web Application**: Just copy and paste any suspicious news article into the user-model chat to assess its credibility. Our web app provides documentation on how to use our products effectively.
+- **Chrome Extension**: Easily classify news articles while browsing social media or conducting online research with a few buttons.
 
-## Workflow Overview
-
-Check out our workflow to see how TOP works:
-
-![TOP Workflow](https://github.com/ali26m/Fake_News_Classification/blob/main/documentaion/TOP-pipeline.gif)
+   https://github.com/ali26m/TOP_fake_news_classifier/assets/96798106/29073c6f-75f3-445b-99cd-d973254f8d56
 
 ---
+- **Web Application**: Just copy and paste any suspicious news article into the user-model chat to assess its credibility. Our web app provides documentation on how to use our products effectively.
+
+https://github.com/ali26m/TOP_fake_news_classifier/assets/96798106/7c0ed5a9-0e5b-4ea1-a7af-5fb2ca2a0e95
+
+---
+
 
 ## Contact
 
