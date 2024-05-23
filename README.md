@@ -2,7 +2,7 @@
 
 **Cut Through the Noise. Get the Real Story with TOP**
 
-In today's digital age, misinformation spreads like wildfire. To combat this challenge, we've developed the **Truth or Propaganda (TOP)** project—a comprehensive solution that combines cutting-edge AI, APIs, and user-friendly interfaces.
+In today's digital age, misinformation spreads like wildfire. To combat this challenge, we've developed the **TOP** project. A comprehensive solution that combines cutting-edge AI, APIs, and user-friendly interfaces.
 
  Before we begin. Check out the workflow architecture of how TOP works:
 
@@ -50,5 +50,5 @@ https://github.com/ali26m/TOP_fake_news_classifier/assets/96798106/7c0ed5a9-0e5b
 
 For more information, feel free to reach out:
 
-- **Email**: [abdelrahmanibrahim425@gmail.com](mailto:abdelrahmanibrahim425@gmail.com)
-- **Email**: [alihisham26m@gmail.com](mailto:alihisham26m@gmail.com)
+-  [abdelrahmanibrahim425@gmail.com](mailto:abdelrahmanibrahim425@gmail.com)
+-  [alihisham26m@gmail.com](mailto:alihisham26m@gmail.com)
