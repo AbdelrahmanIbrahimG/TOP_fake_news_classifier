@@ -18,7 +18,7 @@ At the heart of TOP lies a powerful AI model. Deployed in a public cloud environ
 3. **TF-IDF Analysis**: Term Frequency-Inverse Document Frequency (TF-IDF) helps us understand the importance of words in each article.
 4. **Decision Tree Model**: By training our data using a decision tree machine learning model, we achieve an impressive accuracy of 88%.
 
-view the ipynb code [here](https://github.com/ali26m/TOP_fake_news_classifier/blob/main/Training/TOP.ipynb)
+View the ipynb code [here](https://github.com/ali26m/TOP_fake_news_classifier/blob/main/Training/TOP.ipynb)
 
 ## Empowering developers with TOP API
 
@@ -26,7 +26,7 @@ We believe in empowering users to actively combat misinformation. That's why we 
 
 - **Cloud-Based Restful API**: Developed using FastAPI and hosted on the KOYEB platform, the TOP API acts as a bridge for integration with various applications. Developers can seamlessly integrate our API into existing platforms, allowing users to verify information effortlessly.
 
-view our API [here](https://rapidapi.com/alihisham26m/api/top9)
+View our API [here](https://rapidapi.com/alihisham26m/api/top9)
 
 https://github.com/ali26m/TOP_fake_news_classifier/assets/96798106/4da42012-fe9e-4a8b-82f3-9291d005bd69
 
