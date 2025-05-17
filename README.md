@@ -4,6 +4,8 @@
 
 In today's digital age, misinformation spreads like wildfire. To combat this challenge, we've developed the **TOP** project. A comprehensive solution that combines cutting-edge AI, APIs, and user-friendly interfaces.
 
+## Try our [Web App](https://top-ai-7.github.io/TOP-AI)
+
  Before we begin. Check out the workflow architecture of how TOP works:
 
 ![TOP Workflow](https://github.com/ali26m/Fake_News_Classification/blob/main/documentaion/TOP-pipeline.gif)
